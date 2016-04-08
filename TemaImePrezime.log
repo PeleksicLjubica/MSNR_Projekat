@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.27)  8 APR 2016 10:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.27)  8 APR 2016 11:07
 entering extended mode
 **./TemaImePrezime.tex
 (TemaImePrezime.tex
@@ -842,23 +842,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {C:/Users/milica/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-[3] <slike/novo.png, id=88, 332.74312pt x 329.73187pt>
-File: slike/novo.png Graphic file (type png)
- <use slike/novo.png>
-Package pdftex.def Info: slike/novo.png used on input line 65.
-(pdftex.def)             Requested size: 241.49895pt x 239.31865pt.
+[3] <slike/Slika1.png, id=88, 332.74312pt x 326.21875pt>
+File: slike/Slika1.png Graphic file (type png)
 
-[4 <./slike/novo.png>]
+<use slike/Slika1.png>
+Package pdftex.def Info: slike/Slika1.png used on input line 65.
+(pdftex.def)             Requested size: 241.49895pt x 236.76883pt.
+ [4 <./slike/Slika1.png>] [5]
 No file TemaImePrezime.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
-[5] [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
+[6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
  (TemaImePrezime.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
 Package rerunfilecheck Info: File `TemaImePrezime.out' has not changed.
 (rerunfilecheck)             Checksum: 913D13E36D5CE957130F35966E593AE8;1613.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
  )
 (\end occurred inside a group at level 1)
 
@@ -866,7 +866,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
 ### bottom level 
 Here is how much of TeX's memory you used:
  9690 strings out of 493622
- 133604 string characters out of 3134731
+ 133614 string characters out of 3134731
  217081 words of memory out of 3000000
  12984 multiletter control sequences out of 15000+200000
  14631 words of font info for 35 fonts, out of 3000000 for 9000
@@ -889,7 +889,7 @@ ica/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb>
 sfrm1200.pfb><C:/Users/milica/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
 lic/cm-super/sfrm1728.pfb><C:/Users/milica/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/public/cm-super/sfti0900.pfb>
-Output written on TemaImePrezime.pdf (6 pages, 244726 bytes).
+Output written on TemaImePrezime.pdf (6 pages, 244130 bytes).
 PDF statistics:
  156 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)

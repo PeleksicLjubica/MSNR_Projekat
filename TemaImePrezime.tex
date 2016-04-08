@@ -62,7 +62,7 @@ $ pc \gets pc \wedge \neg q $. \textit{Pc} se zove "putanja uslova" jer predstav
 \subsection{Drvo izvršavanja}
 Drvo izvršavanja opisuje putanje kojima je teklo simboličko izvršavanje programa. Svakom čvoru drveta je priključena izvršena naredba (označena brojem), dok svaka veza između čvorova predstavlja direktnu vezu između naredbi. Za svako račvajuće izvršavanje \textit{IF} naredbe od odgovarajućeg čvora polaze dve veze koje su označene sa "T" i "F" za tačan (\textit{THEN}) i netačan (\textit{ELSE}) deo, respektivno. Takođe se svakom čvoru pridružuju vrednosti varijabli, brojač instrukcija, kao i \textit {pc}. Simbolička izvršavanja za funkciju koja izračunava stepen broja su data na \textit {Slici 1.}
 
-\includegraphics[width=0.7\textwidth]{novo}
+\includegraphics[width=0.7\textwidth]{Slika1}
 
 \textit{Slika 1}
 
@@ -87,8 +87,7 @@ Simboličko izvršavanje je takođe korisno i u drugim aspektima programske anal
 \item { Simboličkim zvršavanjem date putanje }
 \item {Ako \textit{PROVE} na kraju putanje pokaže tačno, putanja je korektna, a inače nije }
  \end{enumerate}
-Pošto simboličko izvršavanje zadovoljava svojstvo komutativnosti, jednostavno je zaključiti da je ovo validan metod dokazivanja. Izvršavanjem \textit{PROVE} na kraju putanje postavlja kandidata za teoremu: dakle, ako pretpostavimo da je predikat na početku bio zadovoljen i mi smo pratili ovu putanju koja je snimljena u \textit{pc}-ju, pitamo se da li trenutne vrednosti programa na kraju ove konkretne putanje zadovoljavaju predikat na kraju. Usvajajući ovakvu definiciju za \textit{PROVE} naredbu za dokazivanje korektnosti, je vrlo korisno i za tesitiranje korektnosti metodom simboličkog izvršavanja, naime u testiranju programa (bilo ono simboličko ili ne)moraju da se ispituju izlazi iz programa i mora da se sudi o njihovoj korektnosti
-......
+Pošto simboličko izvršavanje zadovoljava svojstvo komutativnosti, jednostavno je zaključiti da je ovo validan metod dokazivanja. Izvršavanjem \textit{PROVE} na kraju putanje postavlja kandidata za teoremu: dakle, ako pretpostavimo da je predikat na početku bio zadovoljen i mi smo pratili ovu putanju koja je snimljena u \textit{pc}-ju, pitamo se da li trenutne vrednosti programa na kraju ove konkretne putanje zadovoljavaju predikat na kraju. Usvajajući ovakvu definiciju za \textit{PROVE} naredbu za dokazivanje korektnosti, je vrlo korisno i za tesitiranje korektnosti metodom simboličkog izvršavanja. Naime, u testiranju programa (bilo ono simboličko ili ne) moraju da se ispituju izlazi iz programa i mora da se sudi o njihovoj korektnosti.  Ako kriterijum korektnosti može da se formalizuje u smislu ulaznog i izlaznog predikata, onda simbolički izvršilac nakon toga takođe može da pouzdano proveri test rezultate. Za svaki program čije je simboličko drvo konačno i kod koga je kriterijum korektnosti eksplicitno zadat ulaznim i izlaznim predikatima, iscrpno simboličko izvršavanje i dokazivanje korektnosti su zapravo isti proces.
 
 
  
